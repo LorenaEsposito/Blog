@@ -1,5 +1,50 @@
 li
-{list-style-type: none}
+{
+    list-style-type: none;
+    font-family: fantasy;
+    text-align: center;
+}
 
-nav
-{}
+li a
+{
+    text-decoration: none;
+    color: aqua
+}
+
+ul
+{
+    vertical-align: text-bottom;
+}
+
+a:link
+{
+    text-decoration-line: none;
+}
+
+h1
+{
+    text-align: center;
+    font-family: league-gothic-regular;
+}
+
+header, .header
+{
+    background-image: url(beach-sunrise-1149548.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+@font-face
+{
+    font-family: 'league-gothic-regular';
+    src: url('theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-regular-webfont.ttf') format('truetype');
+}
