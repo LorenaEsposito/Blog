@@ -2,35 +2,48 @@ li
 {
     list-style-type: none;
     font-family: fantasy;
-    width: 20%;
     text-align: left;
     display: inline;
+    vertical-align: middle;
+    margin: 0%;
+    padding: 5%;
 }
 
 li a
 {
     text-decoration: none;
-    color: cadetblue;
+    color: deeppink;
     text-align: left;
+    display: inline;
     vertical-align: middle;
+    margin: 0%;
+    padding: 0%;
+    line-height: 15%;
 }
 
 ul
 {
-    height: 20%;
+    height: 15%;
+    min-height: 1.2em;
     width: 100%;
     position: absolute;
     bottom: 0%;
     left: 0%;
     margin: 0;
-    padding: 0;
+    padding: 0.5%;
+    background-color: aqua;
+
 }
 
 h1
 {
-    text-align: center;
-    vertical-align: middle;
+    text-align: left;
+    vertical-align: top;
     font-family: league-gothic-regular;
+    padding: 0%;
+    margin: 0%;
+    font-size: 16px;
+    display: inline;
 }
 
 header, #header
@@ -52,4 +65,20 @@ body
 {
     font-family: 'league-gothic-regular';
     src: url('theleagueof-league-gothic-64c3ede/webfonts/leaguegothic-regular-webfont.ttf') format('truetype');
+}
+
+#content
+{
+    background-image: url(sunrise-182302.jpg);
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#content-left, #content-right
+{
+    height: 100%;
+    width: 50%;
+    float: left;
 }
