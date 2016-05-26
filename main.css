@@ -4,12 +4,40 @@ li
     font-family: fantasy;
     text-align: left;
     display: inline;
-    vertical-align: middle;
+    line-height: 15%;
     margin: 0%;
     padding: 5%;
 }
 
-li a
+.menu
+{
+    text-align: left;
+    background-color: aqua;
+    height: 10%;
+    width: 30%;
+    margin: 5% 0;
+    padding: 1% 0;
+    position: fixed;
+    display: block;
+    z-index: 4;
+}
+
+.home
+{
+    vertical-align: middle;
+    text-align: left;
+    padding: 1%;
+    height: 10%;
+}
+
+.home a
+{
+    text-decoration: none;
+    color: white;
+    font-family: fantasy;
+}
+
+.dropdown-content a
 {
     text-decoration: none;
     color: deeppink;
@@ -19,11 +47,17 @@ li a
     margin: 0%;
     padding: 0%;
     line-height: 15%;
+    background-color: dimgray;
+}
+
+.dropdown-content a:hover
+{
+    background-color: darkgrey;
 }
 
 ul
 {
-    height: 15%;
+    height: 10%;
     min-height: 1.2em;
     width: 100%;
     position: absolute;
@@ -32,6 +66,7 @@ ul
     margin: 0;
     padding: 0.5%;
     background-color: aqua;
+    display: inline;
 
 }
 
@@ -46,13 +81,51 @@ h1
     display: inline;
 }
 
-header, #header
+header, .header
 {
     background-image: url(beach-sunrise-1149548.jpg);
     background-size: cover;
     height: 50%;
     width: 100%;
     position: relative;
+    z-index: 2;
+    opacity: 0.75;
+}
+
+.dropdownbtn
+{
+    background-color: aqua;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownbtn:hover, dropdownbtn:focus
+{
+    background-color: deepskyblue;
+}
+
+.bar
+{
+    width: 10%;
+    height: 2.5%;
+    background-color: black;
+    margin: 1% 0;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 body
@@ -74,6 +147,8 @@ body
     position: relative;
     height: 100%;
     width: 100%;
+    z-index: 1;
+    opacity: 0.5;
 }
 
 #content-left, #content-right

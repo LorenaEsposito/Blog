@@ -14,15 +14,24 @@
     <body>
         <script type="text/javascript">
         </script>
-        <div id='header'>
-            <ul>
-                <h1>Blog</h1>
-                <li><a href="#">Rezepte</a></li>
-                <li><a href="#">Lifestyle</a></li>
-                <li><a href="#">Yoga</a></li>
-                <li><a href="#">Meditation</a></li>
-                <li><a href="#">Selbstfindung</a></li>
-            </ul>
+        <div class="menu">
+                <div class="home"><a href="startseite.html">Blog</a></div>
+                <div class="dropdown">
+                    <button onclick="dropdown()" class="dropdownbtn">
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                        <div class="bar"></div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Rezepte</a>
+                        <a href="#">Lifestyle</a>
+                        <a href="#">Yoga</a>
+                        <a href="#">Meditation</a>
+                        <a href="#">Selbstfindung</a>
+                    </div>
+                </div>
+            </div>
+        <div class="header">
         </div>
         <div id='content'>
             <div id='content-left'>
